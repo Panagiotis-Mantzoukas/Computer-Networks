@@ -1,0 +1,113 @@
+        html, body {
+            background: #663399;  
+            margin: 0;
+        }
+
+        body {
+            font-family: Verdana, Geneva, sans-serif;
+            font-size: 100%;
+            width: 70%;
+            margin-right: auto;
+            margin-left: auto;
+            padding: 2.5% 2.5% 0;
+            background: white;
+            line-height: 1.8;
+        }
+
+        .ralign{
+            text-align: right;
+        }
+
+        .centeralign{
+            text-align: center;
+        }
+
+        .floatR{
+            float: right;
+            margin-bottom: 100px;
+            margin-right: 50px;
+        }
+
+        h1, h2, h3, h4, h5, h6, p {
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3, h4, h5, h6 {
+            color: rgb(107, 107, 132);
+        }
+
+        h1 {
+            font: 4em Verdana, Geneva, sans-serif;
+            margin-bottom: .4em;
+            color: darkblue;
+        }
+        h2 {
+            font: 2em Georgia, "Times New Roman", Times, serif;
+            margin-bottom: 1.2em;
+        }
+        h3 {
+            margin-top: 0.8em;
+            font-size: 1.2em;
+        }
+        p {
+            margin-bottom: 1.2em;
+        }
+        a {
+            color: rgb(184, 126, 84);
+        }
+        a:hover {
+            color: rgb(120, 97, 55);
+        }
+
+        pre {
+            font-size: 1.4em;
+            color: white;
+            padding: .5em 1em;
+            border-left: 1em solid #A68048;
+            background: #666;
+            white-space: pre-wrap;
+            white-space: -moz-pre-wrap;
+            white-space: -pre-wrap;
+            white-space: -o-pre-wrap;
+            word-wrap: break-word;
+            width: 80%;
+        }
+
+        header h2 {
+            padding-bottom: .2em;
+            border-bottom: 1px solid gray;
+        }
+        aside {
+            padding: 1em;
+            background:rgb(83, 104, 138);
+            color: white;
+            margin-bottom: 1em;
+        }
+        aside h3 {
+            color: lightyellow;
+        }
+
+        footer {
+            border-top: 1px solid gray;
+            text-align: center;
+            font-size: .8em;
+            line-height: 4em;
+            margin-top: 1em;
+        }
+        blockquote {
+            font-style: italic;
+        }
+
+    table, th, td {
+        border: 1px solid gray;
+        border-collapse: collapse
+    }
+
+    td, th{
+        text-align: center;
+        padding: 5px;
+    }
+
+    li {
+        margin-top: 10px;
+    }
